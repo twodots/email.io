@@ -4,7 +4,7 @@ export default function (eleventyConfig) {
   eleventyConfig.addWatchTarget("src/css/");
 
   return {
-    pathPrefix: "/github.io/",
+    pathPrefix: "/email.io/",
     dir: {
       input: "src",
       output: "_site",
